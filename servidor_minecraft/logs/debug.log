@@ -1,317 +1,317 @@
-[10Dec2024 04:57:07.062] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[10Dec2024 04:57:07.067] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[10Dec2024 04:57:07.091] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
-[10Dec2024 04:57:07.103] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
-[10Dec2024 04:57:07.123] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
-[10Dec2024 04:57:07.130] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[10Dec2024 04:57:07.134] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/el-monje/servidor_minecraft
-[10Dec2024 04:57:07.134] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/el-monje/servidor_minecraft/mods
-[10Dec2024 04:57:07.135] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/el-monje/servidor_minecraft/config
-[10Dec2024 04:57:07.135] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/el-monje/servidor_minecraft/config/fml.toml
-[10Dec2024 04:57:07.782] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: [/workspaces/el-monje/servidor_minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar][/workspaces/el-monje/servidor_minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar][/workspaces/el-monje/servidor_minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar]
-[10Dec2024 04:57:07.817] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[10Dec2024 04:57:07.824] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[10Dec2024 04:57:07.852] [main/DEBUG] [mixin-transmog/]: Replaced the mixin launch plugin
-[10Dec2024 04:57:07.852] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[10Dec2024 04:57:07.856] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml,mixin-transmogrifier,connector_loader]
-[10Dec2024 04:57:07.856] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
-[10Dec2024 04:57:07.857] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[10Dec2024 04:57:07.857] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[10Dec2024 04:57:07.857] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
-[10Dec2024 04:57:07.858] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
-[10Dec2024 04:57:07.858] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
-[10Dec2024 04:57:07.858] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
-[10Dec2024 04:57:07.859] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
-[10Dec2024 04:57:07.859] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
-[10Dec2024 04:57:07.859] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
-[10Dec2024 04:57:07.861] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.1.6
-[10Dec2024 04:57:07.861] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
-[10Dec2024 04:57:07.861] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
-[10Dec2024 04:57:07.861] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
-[10Dec2024 04:57:07.862] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin-transmogrifier
-[10Dec2024 04:57:07.862] [main/DEBUG] [mixin-transmog/]: onLoad called
-[10Dec2024 04:57:07.862] [main/DEBUG] [mixin-transmog/]: mixin, fml, mixin-transmogrifier, connector_loader
-[10Dec2024 04:57:07.864] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[10Dec2024 04:57:07.864] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[10Dec2024 04:57:07.865] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin-transmogrifier
-[10Dec2024 04:57:07.865] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service connector_loader
-[10Dec2024 04:57:07.866] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service connector_loader
-[10Dec2024 04:57:07.867] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
-[10Dec2024 04:57:07.872] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
-[10Dec2024 04:57:07.873] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
-[10Dec2024 04:57:07.873] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[10Dec2024 04:57:07.874] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
-[10Dec2024 04:57:07.874] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
-[10Dec2024 04:57:07.874] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
-[10Dec2024 04:57:07.875] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/el-monje/servidor_minecraft
-[10Dec2024 04:57:07.875] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/el-monje/servidor_minecraft/mods
-[10Dec2024 04:57:07.875] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/el-monje/servidor_minecraft/config
-[10Dec2024 04:57:07.876] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/el-monje/servidor_minecraft/config/fml.toml
-[10Dec2024 04:57:07.876] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
-[10Dec2024 04:57:07.879] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
-[10Dec2024 04:57:07.881] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
-[10Dec2024 04:57:07.882] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
-[10Dec2024 04:57:07.895] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.3.7, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
-[10Dec2024 04:57:07.897] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
-[10Dec2024 04:57:07.897] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin-transmogrifier
-[10Dec2024 04:57:07.897] [main/DEBUG] [mixin-transmog/]: initialize called
-[10Dec2024 04:57:07.906] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@4abdb505
-[10Dec2024 04:57:07.918] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/el-monje/servidor_minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar%23213%23216!/ Service=ModLauncher Env=SERVER
-[10Dec2024 04:57:07.921] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[10Dec2024 04:57:07.921] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[10Dec2024 04:57:07.922] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[10Dec2024 04:57:07.922] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[10Dec2024 04:57:07.922] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[10Dec2024 04:57:07.923] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[10Dec2024 04:57:07.925] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin-transmogrifier
-[10Dec2024 04:57:07.925] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service connector_loader
-[10Dec2024 04:57:07.927] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service connector_loader
-[10Dec2024 04:57:07.928] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
-[10Dec2024 04:57:07.928] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
-[10Dec2024 04:57:07.928] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
-[10Dec2024 04:57:07.929] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
-[10Dec2024 04:57:07.929] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
-[10Dec2024 04:57:07.930] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
-[10Dec2024 04:57:07.930] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
-[10Dec2024 04:57:07.939] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
-[10Dec2024 04:57:07.944] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (connector_early_locator:1.0.0-beta.43+1.20.1),(mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
-[10Dec2024 04:57:07.944] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (connector_locator:1.0.0-beta.43+1.20.1),(JarInJar:null)
-[10Dec2024 04:57:07.963] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
-[10Dec2024 04:57:08.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Connector-1.0.0-beta.43+1.20.1-mod.jar with {connectormod} mods - versions {1.0.0-beta.43+1.20.1}
-[10Dec2024 04:57:08.007] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/alexsdelight-1.5.jar
-[10Dec2024 04:57:08.010] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file alexsdelight-1.5.jar with {alexsdelight} mods - versions {1.5}
-[10Dec2024 04:57:08.013] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/alexsmobs-1.22.8.jar
-[10Dec2024 04:57:08.015] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file alexsmobs-1.22.8.jar with {alexsmobs} mods - versions {1.22.8}
-[10Dec2024 04:57:08.015] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/AmbientSounds_FORGE_v6.0.1_mc1.20.1.jar
-[10Dec2024 04:57:08.017] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file AmbientSounds_FORGE_v6.0.1_mc1.20.1.jar with {ambientsounds} mods - versions {6.0.1}
-[10Dec2024 04:57:08.018] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/amendments-1.20-1.2.4.jar
-[10Dec2024 04:57:08.019] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file amendments-1.20-1.2.4.jar with {amendments} mods - versions {1.20-1.2.4}
-[10Dec2024 04:57:08.020] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/aquamirae-6.API15.jar
-[10Dec2024 04:57:08.021] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file aquamirae-6.API15.jar with {aquamirae} mods - versions {6.API15}
-[10Dec2024 04:57:08.022] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/architectury-9.2.14-forge.jar
-[10Dec2024 04:57:08.023] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-9.2.14-forge.jar with {architectury} mods - versions {9.2.14}
-[10Dec2024 04:57:08.027] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/backpacked-forge-1.20.1-2.2.5.jar
-[10Dec2024 04:57:08.028] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file backpacked-forge-1.20.1-2.2.5.jar with {backpacked} mods - versions {2.2.5}
-[10Dec2024 04:57:08.029] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/balm-forge-1.20.1-7.3.4-all.jar
-[10Dec2024 04:57:08.030] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file balm-forge-1.20.1-7.3.4-all.jar with {balm} mods - versions {7.3.4}
-[10Dec2024 04:57:08.032] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/betterarcheology-1.1.9-1.20.1.jar
-[10Dec2024 04:57:08.033] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file betterarcheology-1.1.9-1.20.1.jar with {betterarcheology} mods - versions {1.1.9-1.20.1}
-[10Dec2024 04:57:08.036] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/biomemakeover-FORGE-1.20.1-1.11.4.jar
-[10Dec2024 04:57:08.037] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file biomemakeover-FORGE-1.20.1-1.11.4.jar with {biomemakeover} mods - versions {1.20.1-1.11.4}
-[10Dec2024 04:57:08.038] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/bjornlib-1.0.11-1.20.1.jar
-[10Dec2024 04:57:08.039] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file bjornlib-1.0.11-1.20.1.jar with {bjornlib} mods - versions {1.0.11-1.20.1}
-[10Dec2024 04:57:08.040] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/blueprint-1.20.1-7.1.0.jar
-[10Dec2024 04:57:08.041] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file blueprint-1.20.1-7.1.0.jar with {blueprint} mods - versions {7.1.0}
-[10Dec2024 04:57:08.042] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/caelus-forge-3.2.0+1.20.1.jar
-[10Dec2024 04:57:08.042] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file caelus-forge-3.2.0+1.20.1.jar with {caelus} mods - versions {3.2.0+1.20.1}
-[10Dec2024 04:57:08.043] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/canary-mc1.20.1-0.3.3.jar
-[10Dec2024 04:57:08.044] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file canary-mc1.20.1-0.3.3.jar with {canary} mods - versions {0.3.3}
-[10Dec2024 04:57:08.046] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar
-[10Dec2024 04:57:08.047] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file citadel-2.5.4-1.20.1.jar with {citadel} mods - versions {2.5.4}
-[10Dec2024 04:57:08.048] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar
-[10Dec2024 04:57:08.048] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cloth-config-11.1.118-forge.jar with {cloth_config} mods - versions {11.1.118}
-[10Dec2024 04:57:08.070] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Clumps-forge-1.20.1-12.0.0.4.jar
-[10Dec2024 04:57:08.070] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Clumps-forge-1.20.1-12.0.0.4.jar with {clumps} mods - versions {12.0.0.4}
-[10Dec2024 04:57:08.071] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar
-[10Dec2024 04:57:08.072] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file CreativeCore_FORGE_v2.11.30_mc1.20.1.jar with {creativecore} mods - versions {2.11.30}
-[10Dec2024 04:57:08.073] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/creeperoverhaul-3.0.2-forge.jar
-[10Dec2024 04:57:08.074] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file creeperoverhaul-3.0.2-forge.jar with {creeperoverhaul} mods - versions {3.0.2}
-[10Dec2024 04:57:08.074] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/cristellib-1.1.5-forge.jar
-[10Dec2024 04:57:08.075] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cristellib-1.1.5-forge.jar with {cristellib} mods - versions {1.1.5}
-[10Dec2024 04:57:08.076] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/crittersandcompanions-1.20.1-2.1.6.jar
-[10Dec2024 04:57:08.076] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file crittersandcompanions-1.20.1-2.1.6.jar with {crittersandcompanions} mods - versions {1.20.1-2.1.6}
-[10Dec2024 04:57:08.079] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/ctov-forge-3.4.3.jar
-[10Dec2024 04:57:08.080] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ctov-forge-3.4.3.jar with {ctov} mods - versions {3.4.3}
-[10Dec2024 04:57:08.081] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar
-[10Dec2024 04:57:08.081] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-forge-5.9.1+1.20.1.jar with {curios} mods - versions {5.9.1+1.20.1}
-[10Dec2024 04:57:08.083] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/DistantHorizons-2.1.0-a-1.20.1.jar
-[10Dec2024 04:57:08.084] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file DistantHorizons-2.1.0-a-1.20.1.jar with {distanthorizons} mods - versions {2.1.0-a}
-[10Dec2024 04:57:08.084] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/dragonmounts-1.20.1-1.2.3-beta.jar
-[10Dec2024 04:57:08.085] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file dragonmounts-1.20.1-1.2.3-beta.jar with {dragonmounts} mods - versions {1.2.3-beta}
-[10Dec2024 04:57:08.086] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/dragonseeker-1.2.0-1.20.1.jar
-[10Dec2024 04:57:08.087] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file dragonseeker-1.2.0-1.20.1.jar with {dragonseeker} mods - versions {1.2.0-1.20.1}
-[10Dec2024 04:57:08.088] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar
-[10Dec2024 04:57:08.090] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file DungeonsArise-1.20.x-2.1.58-release.jar with {dungeons_arise} mods - versions {2.1.58-1.20.x}
-[10Dec2024 04:57:08.092] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar
-[10Dec2024 04:57:08.093] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file EasyAnvils-v8.0.2-1.20.1-Forge.jar with {easyanvils} mods - versions {8.0.2}
-[10Dec2024 04:57:08.095] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/EasyMagic-v8.0.1-1.20.1-Forge.jar
-[10Dec2024 04:57:08.096] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file EasyMagic-v8.0.1-1.20.1-Forge.jar with {easymagic} mods - versions {8.0.1}
-[10Dec2024 04:57:08.096] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/eatinganimation-1.20-5.0.0.jar
-[10Dec2024 04:57:08.097] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file eatinganimation-1.20-5.0.0.jar with {eatinganimation} mods - versions {5.0.0}
-[10Dec2024 04:57:08.098] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/ecologics-forge-1.20.1-2.2.0.jar
-[10Dec2024 04:57:08.099] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ecologics-forge-1.20.1-2.2.0.jar with {ecologics} mods - versions {2.2.0}
-[10Dec2024 04:57:08.099] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/elytraslot-forge-6.4.0+1.20.1.jar
-[10Dec2024 04:57:08.100] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file elytraslot-forge-6.4.0+1.20.1.jar with {elytraslot} mods - versions {6.4.0+1.20.1}
-[10Dec2024 04:57:08.101] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/elytratrims-forge-3.1.9+1.20.1.jar
-[10Dec2024 04:57:08.101] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file elytratrims-forge-3.1.9+1.20.1.jar with {elytratrims} mods - versions {3.1.9}
-[10Dec2024 04:57:08.102] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/elytratrims_extensions-forge-2.0.1.jar
-[10Dec2024 04:57:08.102] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file elytratrims_extensions-forge-2.0.1.jar with {elytratrims_extensions} mods - versions {2.0.1}
-[10Dec2024 04:57:08.103] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/embeddium-0.3.20+mc1.20.1.jar
-[10Dec2024 04:57:08.104] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file embeddium-0.3.20+mc1.20.1.jar with {embeddium,rubidium} mods - versions {0.3.20+mc1.20.1,0.7.1}
-[10Dec2024 04:57:08.105] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/endermanoverhaul-forge-1.20.1-1.0.4.jar
-[10Dec2024 04:57:08.105] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file endermanoverhaul-forge-1.20.1-1.0.4.jar with {endermanoverhaul} mods - versions {1.0.4}
-[10Dec2024 04:57:08.106] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/entityculling-forge-1.6.5-mc1.20.1.jar
-[10Dec2024 04:57:08.106] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file entityculling-forge-1.6.5-mc1.20.1.jar with {entityculling} mods - versions {1.6.5}
-[10Dec2024 04:57:08.107] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/explorify-v1.4.0.jar
-[10Dec2024 04:57:08.107] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file explorify-v1.4.0.jar with {explorify} mods - versions {1.4.0}
-[10Dec2024 04:57:08.109] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar
-[10Dec2024 04:57:08.110] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FarmersDelight-1.20.1-1.2.4.jar with {farmersdelight} mods - versions {1.20.1-1.2.4}
-[10Dec2024 04:57:08.116] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar
-[10Dec2024 04:57:08.117] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ferritecore-6.0.1-forge.jar with {ferritecore} mods - versions {6.0.1}
-[10Dec2024 04:57:08.120] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar
-[10Dec2024 04:57:08.120] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file framework-forge-1.20.1-0.7.6.jar with {framework} mods - versions {0.7.6}
-[10Dec2024 04:57:08.121] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.6.jar
-[10Dec2024 04:57:08.122] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-forge-1.20.1-4.4.6.jar with {geckolib} mods - versions {4.4.6}
-[10Dec2024 04:57:08.122] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/geophilic-v2.2.0-mc1.20u1.20.2.jar
-[10Dec2024 04:57:08.124] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geophilic-v2.2.0-mc1.20u1.20.2.jar with {geophilic} mods - versions {2.2.0-mc1.20u1.20.2}
-[10Dec2024 04:57:08.125] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/GeophilicReforged-v1.2.0.jar
-[10Dec2024 04:57:08.125] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file GeophilicReforged-v1.2.0.jar with {geophilic_reforged} mods - versions {1.2.0}
-[10Dec2024 04:57:08.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/gpumemleakfix-1.20.1-1.8.jar
-[10Dec2024 04:57:08.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file gpumemleakfix-1.20.1-1.8.jar with {gpumemleakfix} mods - versions {1.20.1-1.8}
-[10Dec2024 04:57:08.134] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-4.jar
-[10Dec2024 04:57:08.135] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file iceandfire-2.1.13-1.20.1-beta-4.jar with {iceandfire} mods - versions {2.1.13-1.20.1-beta-4}
-[10Dec2024 04:57:08.135] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/identity-2.7.1-1.20.1-forge.jar
-[10Dec2024 04:57:08.136] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file identity-2.7.1-1.20.1-forge.jar with {identity} mods - versions {2.7.1-1.20.1}
-[10Dec2024 04:57:08.136] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/ImmediatelyFast-Forge-1.2.17+1.20.4.jar
-[10Dec2024 04:57:08.137] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ImmediatelyFast-Forge-1.2.17+1.20.4.jar with {immediatelyfast} mods - versions {1.2.17+1.20.4}
-[10Dec2024 04:57:08.139] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/immersive_weathering-1.20.1-2.0.1-forge.jar
-[10Dec2024 04:57:08.140] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file immersive_weathering-1.20.1-2.0.1-forge.jar with {immersive_weathering} mods - versions {1.20.1-2.0.1}
-[10Dec2024 04:57:08.142] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Incendium_1.20.x_v5.3.5.jar
-[10Dec2024 04:57:08.143] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Incendium_1.20.x_v5.3.5.jar with {incendium} mods - versions {5.3.5}
-[10Dec2024 04:57:08.144] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.2.jar
-[10Dec2024 04:57:08.144] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Jade-1.20.1-forge-11.9.2.jar with {jade} mods - versions {11.9.2+forge}
-[10Dec2024 04:57:08.145] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.7.jar
-[10Dec2024 04:57:08.146] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.20.1-forge-15.3.0.7.jar with {jei} mods - versions {15.3.0.7}
-[10Dec2024 04:57:08.208] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/L_Enders_Cataclysm-1.99.5 -1.20.1.jar
-[10Dec2024 04:57:08.209] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file L_Enders_Cataclysm-1.99.5 -1.20.1.jar with {cataclysm} mods - versions {1.99.5}
-[10Dec2024 04:57:08.210] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/lionfishapi-1.9.jar
-[10Dec2024 04:57:08.210] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file lionfishapi-1.9.jar with {lionfishapi} mods - versions {1.9}
-[10Dec2024 04:57:08.211] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/lithostitched-forge-1.20.1-1.1.6.jar
-[10Dec2024 04:57:08.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file lithostitched-forge-1.20.1-1.1.6.jar with {lithostitched} mods - versions {1.1.5}
-[10Dec2024 04:57:08.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/mavapi-1.1.4-mc1.20.1.jar
-[10Dec2024 04:57:08.213] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mavapi-1.1.4-mc1.20.1.jar with {mavapi} mods - versions {1.1.4}
-[10Dec2024 04:57:08.213] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/mavm-1.2.6-mc1.20.1.jar
-[10Dec2024 04:57:08.214] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mavm-1.2.6-mc1.20.1.jar with {mavm} mods - versions {1.2.6}
-[10Dec2024 04:57:08.214] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/mes-1.3.1-1.20-forge.jar
-[10Dec2024 04:57:08.215] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mes-1.3.1-1.20-forge.jar with {mes} mods - versions {1.3.1-1.20-forge}
-[10Dec2024 04:57:08.215] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/mns-1.0.1-1.20-forge.jar
-[10Dec2024 04:57:08.216] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mns-1.0.1-1.20-forge.jar with {mns} mods - versions {1.0.1-1.20-forge}
-[10Dec2024 04:57:08.217] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/MobsOfSins-v0.2.jar
-[10Dec2024 04:57:08.217] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file MobsOfSins-v0.2.jar with {mobs_of_sins} mods - versions {0.2}
-[10Dec2024 04:57:08.218] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/moonlight-1.20-2.11.33-forge.jar
-[10Dec2024 04:57:08.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file moonlight-1.20-2.11.33-forge.jar with {moonlight} mods - versions {1.20-2.11.33}
-[10Dec2024 04:57:08.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/moredragons-1.2.jar
-[10Dec2024 04:57:08.220] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file moredragons-1.2.jar with {moredragons} mods - versions {1.2}
-[10Dec2024 04:57:08.220] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/moremobvariants-forge+1.20.1-1.3.0.1.jar
-[10Dec2024 04:57:08.221] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file moremobvariants-forge+1.20.1-1.3.0.1.jar with {moremobvariants} mods - versions {1.3.0.1}
-[10Dec2024 04:57:08.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/mythicmounts-20.1-7.4.2-forge.jar
-[10Dec2024 04:57:08.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mythicmounts-20.1-7.4.2-forge.jar with {mythicmounts} mods - versions {20.1-7.4.2-forge}
-[10Dec2024 04:57:08.224] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/naturalist-forge-4.0.3-1.20.1.jar
-[10Dec2024 04:57:08.225] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file naturalist-forge-4.0.3-1.20.1.jar with {naturalist} mods - versions {4.0.3}
-[10Dec2024 04:57:08.226] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Nullscape_1.20.x_v1.2.5.jar
-[10Dec2024 04:57:08.226] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Nullscape_1.20.x_v1.2.5.jar with {nullscape} mods - versions {1.2.5}
-[10Dec2024 04:57:08.227] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/obscure_api-15.jar
-[10Dec2024 04:57:08.227] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file obscure_api-15.jar with {obscure_api} mods - versions {15}
-[10Dec2024 04:57:08.228] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/oculus-flywheel-compat-1.20.1-0.2.5.jar
-[10Dec2024 04:57:08.228] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file oculus-flywheel-compat-1.20.1-0.2.5.jar with {irisflw} mods - versions {1.20.1-0.2.5}
-[10Dec2024 04:57:08.229] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/organ-museum-1.20.1-Beta.jar
-[10Dec2024 04:57:08.229] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file organ-museum-1.20.1-Beta.jar with {sos_organ_museum} mods - versions {1.0.0}
-[10Dec2024 04:57:08.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Patchouli-1.20.1-84-FORGE.jar
-[10Dec2024 04:57:08.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Patchouli-1.20.1-84-FORGE.jar with {patchouli} mods - versions {1.20.1-84-FORGE}
-[10Dec2024 04:57:08.231] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/personality-1.20.1-4.0.0.jar
-[10Dec2024 04:57:08.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file personality-1.20.1-4.0.0.jar with {personality} mods - versions {4.0.0}
-[10Dec2024 04:57:08.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar
-[10Dec2024 04:57:08.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file PresenceFootsteps-1.20.1-1.9.1-beta.1.jar with {presencefootsteps} mods - versions {1.20.1-1.9.1-beta.1}
-[10Dec2024 04:57:08.239] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar
-[10Dec2024 04:57:08.239] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file PuzzlesLib-v8.1.20-1.20.1-Forge.jar with {puzzleslib} mods - versions {8.1.20}
-[10Dec2024 04:57:08.244] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Quark-4.0-458.jar
-[10Dec2024 04:57:08.245] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Quark-4.0-458.jar with {quark} mods - versions {4.0-458}
-[10Dec2024 04:57:08.249] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/repurposed_structures-7.1.15+1.20.1-forge.jar
-[10Dec2024 04:57:08.249] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file repurposed_structures-7.1.15+1.20.1-forge.jar with {repurposed_structures} mods - versions {7.1.15+1.20.1-forge}
-[10Dec2024 04:57:08.250] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/resourcefulconfig-forge-1.20.1-2.1.2.jar
-[10Dec2024 04:57:08.251] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file resourcefulconfig-forge-1.20.1-2.1.2.jar with {resourcefulconfig} mods - versions {2.1.2}
-[10Dec2024 04:57:08.251] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.25.jar
-[10Dec2024 04:57:08.252] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file resourcefullib-forge-1.20.1-2.1.25.jar with {resourcefullib} mods - versions {2.1.25}
-[10Dec2024 04:57:08.252] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar
-[10Dec2024 04:57:08.253] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar with {embeddium_extra} mods - versions {0.5.4.3+mc1.20.1-build.121}
-[10Dec2024 04:57:08.254] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/rubidium-mc1.20.1-0.7.1a.jar
-[10Dec2024 04:57:08.254] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file rubidium-mc1.20.1-0.7.1a.jar with {rubidium,sodium} mods - versions {0.7.1a,0.5.3}
-[10Dec2024 04:57:08.255] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/skinlayers3d-forge-1.6.5-mc1.20.1.jar
-[10Dec2024 04:57:08.255] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file skinlayers3d-forge-1.6.5-mc1.20.1.jar with {skinlayers3d} mods - versions {1.6.5}
-[10Dec2024 04:57:08.256] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Sniffer+-forge-1.20.1-0.3.0.jar
-[10Dec2024 04:57:08.257] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Sniffer+-forge-1.20.1-0.3.0.jar with {snifferplus} mods - versions {0.3.0}
-[10Dec2024 04:57:08.258] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/sons-of-sins-1.20.1-2.1.6.jar
-[10Dec2024 04:57:08.258] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sons-of-sins-1.20.1-2.1.6.jar with {sons_of_sins} mods - versions {2.1.6}
-[10Dec2024 04:57:08.259] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/sosorgans-1.0.0.jar
-[10Dec2024 04:57:08.260] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sosorgans-1.0.0.jar with {sosorgans} mods - versions {1.0.0}
-[10Dec2024 04:57:08.260] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/soulfired-1.20.1-3.2.1.0-forge.jar
-[10Dec2024 04:57:08.261] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file soulfired-1.20.1-3.2.1.0-forge.jar with {soulfired} mods - versions {3.2.1.0}
-[10Dec2024 04:57:08.261] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/sound-physics-remastered-forge-1.20.1-1.4.2.jar
-[10Dec2024 04:57:08.262] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sound-physics-remastered-forge-1.20.1-1.4.2.jar with {sound_physics_remastered} mods - versions {1.20.1-1.4.2}
-[10Dec2024 04:57:08.263] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/spelunkers_charm-3.6.0-1.20.1.jar
-[10Dec2024 04:57:08.263] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file spelunkers_charm-3.6.0-1.20.1.jar with {spelunkers_charm} mods - versions {3.6.0}
-[10Dec2024 04:57:08.264] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Structory_1.20.x_v1.3.5.jar
-[10Dec2024 04:57:08.264] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Structory_1.20.x_v1.3.5.jar with {structory} mods - versions {1.3.5}
-[10Dec2024 04:57:08.268] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/supplementaries-1.20-2.8.15.jar
-[10Dec2024 04:57:08.268] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file supplementaries-1.20-2.8.15.jar with {supplementaries} mods - versions {1.20-2.8.15}
-[10Dec2024 04:57:08.269] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/takesapillage-1.0.3-1.20.1.jar
-[10Dec2024 04:57:08.270] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file takesapillage-1.0.3-1.20.1.jar with {takesapillage} mods - versions {1.0.3}
-[10Dec2024 04:57:08.270] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/TextruesRubidiumOptions-1.0.5+mc1.20.1.jar
-[10Dec2024 04:57:08.271] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TextruesRubidiumOptions-1.0.5+mc1.20.1.jar with {reeses_sodium_options} mods - versions {1.0.5+mc1.20.1}
-[10Dec2024 04:57:08.273] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Towns-and-Towers-1.12-Fabric+Forge.jar
-[10Dec2024 04:57:08.274] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Towns-and-Towers-1.12-Fabric+Forge.jar with {t_and_t} mods - versions {0.0NONE}
-[10Dec2024 04:57:08.276] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/upgrade_aquatic-1.20.1-6.0.0.jar
-[10Dec2024 04:57:08.277] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file upgrade_aquatic-1.20.1-6.0.0.jar with {upgrade_aquatic} mods - versions {6.0.0}
-[10Dec2024 04:57:08.277] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/warriorrage-forge-1.20.1-1.0.1.jar
-[10Dec2024 04:57:08.278] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file warriorrage-forge-1.20.1-1.0.1.jar with {warriorrage} mods - versions {1.0.1}
-[10Dec2024 04:57:08.279] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/waystones-forge-1.20-14.1.3.jar
-[10Dec2024 04:57:08.279] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file waystones-forge-1.20-14.1.3.jar with {waystones} mods - versions {14.1.3}
-[10Dec2024 04:57:08.280] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/WaystonesTeleportPets-1.20-1.20.1--1.2.jar
-[10Dec2024 04:57:08.280] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file WaystonesTeleportPets-1.20-1.20.1--1.2.jar with {w2pets} mods - versions {1.0}
-[10Dec2024 04:57:08.281] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Xaeros_Minimap_24.2.0_Forge_1.20.jar
-[10Dec2024 04:57:08.282] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Xaeros_Minimap_24.2.0_Forge_1.20.jar with {xaerominimap} mods - versions {24.2.0}
-[10Dec2024 04:57:08.282] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/xaeros_waystones_compability-1.0.jar
-[10Dec2024 04:57:08.283] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file xaeros_waystones_compability-1.0.jar with {w2w2} mods - versions {1.0}
-[10Dec2024 04:57:08.284] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar
-[10Dec2024 04:57:08.285] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsApi-1.20-Forge-4.0.5.jar with {yungsapi} mods - versions {1.20-Forge-4.0.5}
-[10Dec2024 04:57:08.285] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar
-[10Dec2024 04:57:08.286] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterDesertTemples-1.20-Forge-3.0.3.jar with {betterdeserttemples} mods - versions {1.20-Forge-3.0.3}
-[10Dec2024 04:57:08.287] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar
-[10Dec2024 04:57:08.287] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterDungeons-1.20-Forge-4.0.4.jar with {betterdungeons} mods - versions {1.20-Forge-4.0.4}
-[10Dec2024 04:57:08.288] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterEndIsland-1.20-Forge-2.0.6.jar
-[10Dec2024 04:57:08.288] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterEndIsland-1.20-Forge-2.0.6.jar with {betterendisland} mods - versions {1.20-Forge-2.0.6}
-[10Dec2024 04:57:08.289] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar
-[10Dec2024 04:57:08.290] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterJungleTemples-1.20-Forge-2.0.5.jar with {betterjungletemples} mods - versions {1.20-Forge-2.0.5}
-[10Dec2024 04:57:08.290] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar
-[10Dec2024 04:57:08.291] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterMineshafts-1.20-Forge-4.0.4.jar with {bettermineshafts} mods - versions {1.20-Forge-4.0.4}
-[10Dec2024 04:57:08.292] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar
-[10Dec2024 04:57:08.292] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar with {betterfortresses} mods - versions {1.20-Forge-2.0.6}
-[10Dec2024 04:57:08.293] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar
-[10Dec2024 04:57:08.293] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar with {betteroceanmonuments} mods - versions {1.20-Forge-3.0.4}
-[10Dec2024 04:57:08.294] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar
-[10Dec2024 04:57:08.295] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterStrongholds-1.20-Forge-4.0.3.jar with {betterstrongholds} mods - versions {1.20-Forge-4.0.3}
-[10Dec2024 04:57:08.295] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar
-[10Dec2024 04:57:08.296] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterWitchHuts-1.20-Forge-3.0.3.jar with {betterwitchhuts} mods - versions {1.20-Forge-3.0.3}
-[10Dec2024 04:57:08.296] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBridges-1.20-Forge-4.0.3.jar
-[10Dec2024 04:57:08.297] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBridges-1.20-Forge-4.0.3.jar with {yungsbridges} mods - versions {1.20-Forge-4.0.3}
-[10Dec2024 04:57:08.298] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsExtras-1.20-Forge-4.0.3.jar
-[10Dec2024 04:57:08.298] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsExtras-1.20-Forge-4.0.3.jar with {yungsextras} mods - versions {1.20-Forge-4.0.3}
-[10Dec2024 04:57:08.299] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Zeta-1.0-19.jar
-[10Dec2024 04:57:08.300] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Zeta-1.0-19.jar with {zeta} mods - versions {1.0-19}
-[10Dec2024 04:57:08.395] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
-[10Dec2024 04:57:08.397] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar
-[10Dec2024 04:57:08.397] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[10Dec2024 04:57:08.399] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar
-[10Dec2024 04:57:08.399] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[10Dec2024 04:57:08.400] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar
-[10Dec2024 04:57:08.400] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[10Dec2024 04:57:08.401] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar
-[10Dec2024 04:57:08.401] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[10Dec2024 04:57:08.445] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar
-[10Dec2024 04:57:08.446] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.3.7-universal.jar with {forge} mods - versions {47.3.7}
-[10Dec2024 04:57:08.453] [main/ERROR] [net.minecraftforge.fml.loading.UniqueModListBuilder/LOADING]: Found duplicate mods:
+[10Dec2024 04:57:39.977] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[10Dec2024 04:57:39.981] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[10Dec2024 04:57:40.006] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[10Dec2024 04:57:40.017] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[10Dec2024 04:57:40.030] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[10Dec2024 04:57:40.041] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[10Dec2024 04:57:40.045] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/el-monje/servidor_minecraft
+[10Dec2024 04:57:40.045] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/el-monje/servidor_minecraft/mods
+[10Dec2024 04:57:40.046] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/el-monje/servidor_minecraft/config
+[10Dec2024 04:57:40.046] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/el-monje/servidor_minecraft/config/fml.toml
+[10Dec2024 04:57:41.056] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: [/workspaces/el-monje/servidor_minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar][/workspaces/el-monje/servidor_minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar][/workspaces/el-monje/servidor_minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar]
+[10Dec2024 04:57:41.090] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[10Dec2024 04:57:41.098] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[10Dec2024 04:57:41.129] [main/DEBUG] [mixin-transmog/]: Replaced the mixin launch plugin
+[10Dec2024 04:57:41.129] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[10Dec2024 04:57:41.133] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml,mixin-transmogrifier,connector_loader]
+[10Dec2024 04:57:41.133] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[10Dec2024 04:57:41.134] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[10Dec2024 04:57:41.134] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[10Dec2024 04:57:41.134] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[10Dec2024 04:57:41.135] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[10Dec2024 04:57:41.135] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[10Dec2024 04:57:41.136] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[10Dec2024 04:57:41.136] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[10Dec2024 04:57:41.136] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
+[10Dec2024 04:57:41.137] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[10Dec2024 04:57:41.139] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.1.6
+[10Dec2024 04:57:41.139] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[10Dec2024 04:57:41.139] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[10Dec2024 04:57:41.139] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[10Dec2024 04:57:41.140] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin-transmogrifier
+[10Dec2024 04:57:41.140] [main/DEBUG] [mixin-transmog/]: onLoad called
+[10Dec2024 04:57:41.140] [main/DEBUG] [mixin-transmog/]: mixin, fml, mixin-transmogrifier, connector_loader
+[10Dec2024 04:57:41.142] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[10Dec2024 04:57:41.142] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[10Dec2024 04:57:41.142] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin-transmogrifier
+[10Dec2024 04:57:41.142] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service connector_loader
+[10Dec2024 04:57:41.143] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service connector_loader
+[10Dec2024 04:57:41.144] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[10Dec2024 04:57:41.150] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[10Dec2024 04:57:41.150] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[10Dec2024 04:57:41.150] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[10Dec2024 04:57:41.151] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[10Dec2024 04:57:41.152] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[10Dec2024 04:57:41.152] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[10Dec2024 04:57:41.152] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/el-monje/servidor_minecraft
+[10Dec2024 04:57:41.153] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/el-monje/servidor_minecraft/mods
+[10Dec2024 04:57:41.153] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/el-monje/servidor_minecraft/config
+[10Dec2024 04:57:41.153] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/el-monje/servidor_minecraft/config/fml.toml
+[10Dec2024 04:57:41.153] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[10Dec2024 04:57:41.156] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[10Dec2024 04:57:41.158] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[10Dec2024 04:57:41.159] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[10Dec2024 04:57:41.173] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.3.7, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+[10Dec2024 04:57:41.174] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[10Dec2024 04:57:41.174] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin-transmogrifier
+[10Dec2024 04:57:41.174] [main/DEBUG] [mixin-transmog/]: initialize called
+[10Dec2024 04:57:41.184] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@4abdb505
+[10Dec2024 04:57:41.195] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/el-monje/servidor_minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar%23213%23216!/ Service=ModLauncher Env=SERVER
+[10Dec2024 04:57:41.198] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[10Dec2024 04:57:41.199] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10Dec2024 04:57:41.199] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10Dec2024 04:57:41.200] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10Dec2024 04:57:41.200] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10Dec2024 04:57:41.200] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10Dec2024 04:57:41.202] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin-transmogrifier
+[10Dec2024 04:57:41.202] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service connector_loader
+[10Dec2024 04:57:41.205] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service connector_loader
+[10Dec2024 04:57:41.206] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[10Dec2024 04:57:41.206] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[10Dec2024 04:57:41.206] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[10Dec2024 04:57:41.207] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[10Dec2024 04:57:41.207] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[10Dec2024 04:57:41.208] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[10Dec2024 04:57:41.208] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[10Dec2024 04:57:41.217] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[10Dec2024 04:57:41.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (connector_early_locator:1.0.0-beta.43+1.20.1),(mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[10Dec2024 04:57:41.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (connector_locator:1.0.0-beta.43+1.20.1),(JarInJar:null)
+[10Dec2024 04:57:41.240] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[10Dec2024 04:57:41.280] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Connector-1.0.0-beta.43+1.20.1-mod.jar with {connectormod} mods - versions {1.0.0-beta.43+1.20.1}
+[10Dec2024 04:57:41.286] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/alexsdelight-1.5.jar
+[10Dec2024 04:57:41.289] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file alexsdelight-1.5.jar with {alexsdelight} mods - versions {1.5}
+[10Dec2024 04:57:41.292] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/alexsmobs-1.22.8.jar
+[10Dec2024 04:57:41.293] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file alexsmobs-1.22.8.jar with {alexsmobs} mods - versions {1.22.8}
+[10Dec2024 04:57:41.294] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/AmbientSounds_FORGE_v6.0.1_mc1.20.1.jar
+[10Dec2024 04:57:41.295] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file AmbientSounds_FORGE_v6.0.1_mc1.20.1.jar with {ambientsounds} mods - versions {6.0.1}
+[10Dec2024 04:57:41.296] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/amendments-1.20-1.2.4.jar
+[10Dec2024 04:57:41.297] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file amendments-1.20-1.2.4.jar with {amendments} mods - versions {1.20-1.2.4}
+[10Dec2024 04:57:41.298] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/aquamirae-6.API15.jar
+[10Dec2024 04:57:41.300] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file aquamirae-6.API15.jar with {aquamirae} mods - versions {6.API15}
+[10Dec2024 04:57:41.300] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/architectury-9.2.14-forge.jar
+[10Dec2024 04:57:41.302] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-9.2.14-forge.jar with {architectury} mods - versions {9.2.14}
+[10Dec2024 04:57:41.305] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/backpacked-forge-1.20.1-2.2.5.jar
+[10Dec2024 04:57:41.307] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file backpacked-forge-1.20.1-2.2.5.jar with {backpacked} mods - versions {2.2.5}
+[10Dec2024 04:57:41.307] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/balm-forge-1.20.1-7.3.4-all.jar
+[10Dec2024 04:57:41.309] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file balm-forge-1.20.1-7.3.4-all.jar with {balm} mods - versions {7.3.4}
+[10Dec2024 04:57:41.310] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/betterarcheology-1.1.9-1.20.1.jar
+[10Dec2024 04:57:41.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file betterarcheology-1.1.9-1.20.1.jar with {betterarcheology} mods - versions {1.1.9-1.20.1}
+[10Dec2024 04:57:41.314] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/biomemakeover-FORGE-1.20.1-1.11.4.jar
+[10Dec2024 04:57:41.315] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file biomemakeover-FORGE-1.20.1-1.11.4.jar with {biomemakeover} mods - versions {1.20.1-1.11.4}
+[10Dec2024 04:57:41.316] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/bjornlib-1.0.11-1.20.1.jar
+[10Dec2024 04:57:41.317] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file bjornlib-1.0.11-1.20.1.jar with {bjornlib} mods - versions {1.0.11-1.20.1}
+[10Dec2024 04:57:41.318] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/blueprint-1.20.1-7.1.0.jar
+[10Dec2024 04:57:41.319] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file blueprint-1.20.1-7.1.0.jar with {blueprint} mods - versions {7.1.0}
+[10Dec2024 04:57:41.319] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/caelus-forge-3.2.0+1.20.1.jar
+[10Dec2024 04:57:41.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file caelus-forge-3.2.0+1.20.1.jar with {caelus} mods - versions {3.2.0+1.20.1}
+[10Dec2024 04:57:41.321] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/canary-mc1.20.1-0.3.3.jar
+[10Dec2024 04:57:41.322] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file canary-mc1.20.1-0.3.3.jar with {canary} mods - versions {0.3.3}
+[10Dec2024 04:57:41.323] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar
+[10Dec2024 04:57:41.324] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file citadel-2.5.4-1.20.1.jar with {citadel} mods - versions {2.5.4}
+[10Dec2024 04:57:41.326] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar
+[10Dec2024 04:57:41.328] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cloth-config-11.1.118-forge.jar with {cloth_config} mods - versions {11.1.118}
+[10Dec2024 04:57:41.342] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Clumps-forge-1.20.1-12.0.0.4.jar
+[10Dec2024 04:57:41.342] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Clumps-forge-1.20.1-12.0.0.4.jar with {clumps} mods - versions {12.0.0.4}
+[10Dec2024 04:57:41.344] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar
+[10Dec2024 04:57:41.346] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file CreativeCore_FORGE_v2.11.30_mc1.20.1.jar with {creativecore} mods - versions {2.11.30}
+[10Dec2024 04:57:41.347] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/creeperoverhaul-3.0.2-forge.jar
+[10Dec2024 04:57:41.348] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file creeperoverhaul-3.0.2-forge.jar with {creeperoverhaul} mods - versions {3.0.2}
+[10Dec2024 04:57:41.349] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/cristellib-1.1.5-forge.jar
+[10Dec2024 04:57:41.350] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cristellib-1.1.5-forge.jar with {cristellib} mods - versions {1.1.5}
+[10Dec2024 04:57:41.352] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/crittersandcompanions-1.20.1-2.1.6.jar
+[10Dec2024 04:57:41.354] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file crittersandcompanions-1.20.1-2.1.6.jar with {crittersandcompanions} mods - versions {1.20.1-2.1.6}
+[10Dec2024 04:57:41.358] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/ctov-forge-3.4.3.jar
+[10Dec2024 04:57:41.359] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ctov-forge-3.4.3.jar with {ctov} mods - versions {3.4.3}
+[10Dec2024 04:57:41.360] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar
+[10Dec2024 04:57:41.361] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-forge-5.9.1+1.20.1.jar with {curios} mods - versions {5.9.1+1.20.1}
+[10Dec2024 04:57:41.364] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/DistantHorizons-2.1.0-a-1.20.1.jar
+[10Dec2024 04:57:41.365] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file DistantHorizons-2.1.0-a-1.20.1.jar with {distanthorizons} mods - versions {2.1.0-a}
+[10Dec2024 04:57:41.366] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/dragonmounts-1.20.1-1.2.3-beta.jar
+[10Dec2024 04:57:41.367] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file dragonmounts-1.20.1-1.2.3-beta.jar with {dragonmounts} mods - versions {1.2.3-beta}
+[10Dec2024 04:57:41.367] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/dragonseeker-1.2.0-1.20.1.jar
+[10Dec2024 04:57:41.368] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file dragonseeker-1.2.0-1.20.1.jar with {dragonseeker} mods - versions {1.2.0-1.20.1}
+[10Dec2024 04:57:41.370] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar
+[10Dec2024 04:57:41.370] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file DungeonsArise-1.20.x-2.1.58-release.jar with {dungeons_arise} mods - versions {2.1.58-1.20.x}
+[10Dec2024 04:57:41.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar
+[10Dec2024 04:57:41.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file EasyAnvils-v8.0.2-1.20.1-Forge.jar with {easyanvils} mods - versions {8.0.2}
+[10Dec2024 04:57:41.375] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/EasyMagic-v8.0.1-1.20.1-Forge.jar
+[10Dec2024 04:57:41.376] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file EasyMagic-v8.0.1-1.20.1-Forge.jar with {easymagic} mods - versions {8.0.1}
+[10Dec2024 04:57:41.377] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/eatinganimation-1.20-5.0.0.jar
+[10Dec2024 04:57:41.378] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file eatinganimation-1.20-5.0.0.jar with {eatinganimation} mods - versions {5.0.0}
+[10Dec2024 04:57:41.379] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/ecologics-forge-1.20.1-2.2.0.jar
+[10Dec2024 04:57:41.379] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ecologics-forge-1.20.1-2.2.0.jar with {ecologics} mods - versions {2.2.0}
+[10Dec2024 04:57:41.380] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/elytraslot-forge-6.4.0+1.20.1.jar
+[10Dec2024 04:57:41.381] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file elytraslot-forge-6.4.0+1.20.1.jar with {elytraslot} mods - versions {6.4.0+1.20.1}
+[10Dec2024 04:57:41.382] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/elytratrims-forge-3.1.9+1.20.1.jar
+[10Dec2024 04:57:41.382] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file elytratrims-forge-3.1.9+1.20.1.jar with {elytratrims} mods - versions {3.1.9}
+[10Dec2024 04:57:41.383] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/elytratrims_extensions-forge-2.0.1.jar
+[10Dec2024 04:57:41.383] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file elytratrims_extensions-forge-2.0.1.jar with {elytratrims_extensions} mods - versions {2.0.1}
+[10Dec2024 04:57:41.384] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/embeddium-0.3.20+mc1.20.1.jar
+[10Dec2024 04:57:41.385] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file embeddium-0.3.20+mc1.20.1.jar with {embeddium,rubidium} mods - versions {0.3.20+mc1.20.1,0.7.1}
+[10Dec2024 04:57:41.386] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/endermanoverhaul-forge-1.20.1-1.0.4.jar
+[10Dec2024 04:57:41.387] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file endermanoverhaul-forge-1.20.1-1.0.4.jar with {endermanoverhaul} mods - versions {1.0.4}
+[10Dec2024 04:57:41.388] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/entityculling-forge-1.6.5-mc1.20.1.jar
+[10Dec2024 04:57:41.388] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file entityculling-forge-1.6.5-mc1.20.1.jar with {entityculling} mods - versions {1.6.5}
+[10Dec2024 04:57:41.389] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/explorify-v1.4.0.jar
+[10Dec2024 04:57:41.389] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file explorify-v1.4.0.jar with {explorify} mods - versions {1.4.0}
+[10Dec2024 04:57:41.391] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar
+[10Dec2024 04:57:41.392] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FarmersDelight-1.20.1-1.2.4.jar with {farmersdelight} mods - versions {1.20.1-1.2.4}
+[10Dec2024 04:57:41.396] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar
+[10Dec2024 04:57:41.397] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ferritecore-6.0.1-forge.jar with {ferritecore} mods - versions {6.0.1}
+[10Dec2024 04:57:41.400] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar
+[10Dec2024 04:57:41.401] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file framework-forge-1.20.1-0.7.6.jar with {framework} mods - versions {0.7.6}
+[10Dec2024 04:57:41.402] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.6.jar
+[10Dec2024 04:57:41.402] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-forge-1.20.1-4.4.6.jar with {geckolib} mods - versions {4.4.6}
+[10Dec2024 04:57:41.403] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/geophilic-v2.2.0-mc1.20u1.20.2.jar
+[10Dec2024 04:57:41.404] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geophilic-v2.2.0-mc1.20u1.20.2.jar with {geophilic} mods - versions {2.2.0-mc1.20u1.20.2}
+[10Dec2024 04:57:41.404] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/GeophilicReforged-v1.2.0.jar
+[10Dec2024 04:57:41.405] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file GeophilicReforged-v1.2.0.jar with {geophilic_reforged} mods - versions {1.2.0}
+[10Dec2024 04:57:41.409] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/gpumemleakfix-1.20.1-1.8.jar
+[10Dec2024 04:57:41.410] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file gpumemleakfix-1.20.1-1.8.jar with {gpumemleakfix} mods - versions {1.20.1-1.8}
+[10Dec2024 04:57:41.413] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-4.jar
+[10Dec2024 04:57:41.414] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file iceandfire-2.1.13-1.20.1-beta-4.jar with {iceandfire} mods - versions {2.1.13-1.20.1-beta-4}
+[10Dec2024 04:57:41.415] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/identity-2.7.1-1.20.1-forge.jar
+[10Dec2024 04:57:41.415] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file identity-2.7.1-1.20.1-forge.jar with {identity} mods - versions {2.7.1-1.20.1}
+[10Dec2024 04:57:41.416] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/ImmediatelyFast-Forge-1.2.17+1.20.4.jar
+[10Dec2024 04:57:41.417] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ImmediatelyFast-Forge-1.2.17+1.20.4.jar with {immediatelyfast} mods - versions {1.2.17+1.20.4}
+[10Dec2024 04:57:41.419] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/immersive_weathering-1.20.1-2.0.1-forge.jar
+[10Dec2024 04:57:41.419] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file immersive_weathering-1.20.1-2.0.1-forge.jar with {immersive_weathering} mods - versions {1.20.1-2.0.1}
+[10Dec2024 04:57:41.422] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Incendium_1.20.x_v5.3.5.jar
+[10Dec2024 04:57:41.423] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Incendium_1.20.x_v5.3.5.jar with {incendium} mods - versions {5.3.5}
+[10Dec2024 04:57:41.424] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.2.jar
+[10Dec2024 04:57:41.424] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Jade-1.20.1-forge-11.9.2.jar with {jade} mods - versions {11.9.2+forge}
+[10Dec2024 04:57:41.425] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.7.jar
+[10Dec2024 04:57:41.427] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.20.1-forge-15.3.0.7.jar with {jei} mods - versions {15.3.0.7}
+[10Dec2024 04:57:41.457] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/L_Enders_Cataclysm-1.99.5 -1.20.1.jar
+[10Dec2024 04:57:41.458] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file L_Enders_Cataclysm-1.99.5 -1.20.1.jar with {cataclysm} mods - versions {1.99.5}
+[10Dec2024 04:57:41.459] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/lionfishapi-1.9.jar
+[10Dec2024 04:57:41.459] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file lionfishapi-1.9.jar with {lionfishapi} mods - versions {1.9}
+[10Dec2024 04:57:41.460] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/lithostitched-forge-1.20.1-1.1.6.jar
+[10Dec2024 04:57:41.461] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file lithostitched-forge-1.20.1-1.1.6.jar with {lithostitched} mods - versions {1.1.5}
+[10Dec2024 04:57:41.461] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/mavapi-1.1.4-mc1.20.1.jar
+[10Dec2024 04:57:41.462] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mavapi-1.1.4-mc1.20.1.jar with {mavapi} mods - versions {1.1.4}
+[10Dec2024 04:57:41.462] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/mavm-1.2.6-mc1.20.1.jar
+[10Dec2024 04:57:41.463] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mavm-1.2.6-mc1.20.1.jar with {mavm} mods - versions {1.2.6}
+[10Dec2024 04:57:41.464] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/mes-1.3.1-1.20-forge.jar
+[10Dec2024 04:57:41.465] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mes-1.3.1-1.20-forge.jar with {mes} mods - versions {1.3.1-1.20-forge}
+[10Dec2024 04:57:41.466] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/mns-1.0.1-1.20-forge.jar
+[10Dec2024 04:57:41.466] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mns-1.0.1-1.20-forge.jar with {mns} mods - versions {1.0.1-1.20-forge}
+[10Dec2024 04:57:41.467] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/MobsOfSins-v0.2.jar
+[10Dec2024 04:57:41.468] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file MobsOfSins-v0.2.jar with {mobs_of_sins} mods - versions {0.2}
+[10Dec2024 04:57:41.469] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/moonlight-1.20-2.11.33-forge.jar
+[10Dec2024 04:57:41.470] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file moonlight-1.20-2.11.33-forge.jar with {moonlight} mods - versions {1.20-2.11.33}
+[10Dec2024 04:57:41.470] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/moredragons-1.2.jar
+[10Dec2024 04:57:41.471] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file moredragons-1.2.jar with {moredragons} mods - versions {1.2}
+[10Dec2024 04:57:41.472] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/moremobvariants-forge+1.20.1-1.3.0.1.jar
+[10Dec2024 04:57:41.473] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file moremobvariants-forge+1.20.1-1.3.0.1.jar with {moremobvariants} mods - versions {1.3.0.1}
+[10Dec2024 04:57:41.474] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/mythicmounts-20.1-7.4.2-forge.jar
+[10Dec2024 04:57:41.475] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mythicmounts-20.1-7.4.2-forge.jar with {mythicmounts} mods - versions {20.1-7.4.2-forge}
+[10Dec2024 04:57:41.476] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/naturalist-forge-4.0.3-1.20.1.jar
+[10Dec2024 04:57:41.477] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file naturalist-forge-4.0.3-1.20.1.jar with {naturalist} mods - versions {4.0.3}
+[10Dec2024 04:57:41.478] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Nullscape_1.20.x_v1.2.5.jar
+[10Dec2024 04:57:41.478] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Nullscape_1.20.x_v1.2.5.jar with {nullscape} mods - versions {1.2.5}
+[10Dec2024 04:57:41.479] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/obscure_api-15.jar
+[10Dec2024 04:57:41.480] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file obscure_api-15.jar with {obscure_api} mods - versions {15}
+[10Dec2024 04:57:41.480] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/oculus-flywheel-compat-1.20.1-0.2.5.jar
+[10Dec2024 04:57:41.481] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file oculus-flywheel-compat-1.20.1-0.2.5.jar with {irisflw} mods - versions {1.20.1-0.2.5}
+[10Dec2024 04:57:41.481] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/organ-museum-1.20.1-Beta.jar
+[10Dec2024 04:57:41.482] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file organ-museum-1.20.1-Beta.jar with {sos_organ_museum} mods - versions {1.0.0}
+[10Dec2024 04:57:41.482] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Patchouli-1.20.1-84-FORGE.jar
+[10Dec2024 04:57:41.483] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Patchouli-1.20.1-84-FORGE.jar with {patchouli} mods - versions {1.20.1-84-FORGE}
+[10Dec2024 04:57:41.484] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/personality-1.20.1-4.0.0.jar
+[10Dec2024 04:57:41.484] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file personality-1.20.1-4.0.0.jar with {personality} mods - versions {4.0.0}
+[10Dec2024 04:57:41.485] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar
+[10Dec2024 04:57:41.486] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file PresenceFootsteps-1.20.1-1.9.1-beta.1.jar with {presencefootsteps} mods - versions {1.20.1-1.9.1-beta.1}
+[10Dec2024 04:57:41.492] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar
+[10Dec2024 04:57:41.493] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file PuzzlesLib-v8.1.20-1.20.1-Forge.jar with {puzzleslib} mods - versions {8.1.20}
+[10Dec2024 04:57:41.498] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Quark-4.0-458.jar
+[10Dec2024 04:57:41.499] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Quark-4.0-458.jar with {quark} mods - versions {4.0-458}
+[10Dec2024 04:57:41.503] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/repurposed_structures-7.1.15+1.20.1-forge.jar
+[10Dec2024 04:57:41.504] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file repurposed_structures-7.1.15+1.20.1-forge.jar with {repurposed_structures} mods - versions {7.1.15+1.20.1-forge}
+[10Dec2024 04:57:41.505] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/resourcefulconfig-forge-1.20.1-2.1.2.jar
+[10Dec2024 04:57:41.505] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file resourcefulconfig-forge-1.20.1-2.1.2.jar with {resourcefulconfig} mods - versions {2.1.2}
+[10Dec2024 04:57:41.506] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.25.jar
+[10Dec2024 04:57:41.506] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file resourcefullib-forge-1.20.1-2.1.25.jar with {resourcefullib} mods - versions {2.1.25}
+[10Dec2024 04:57:41.507] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar
+[10Dec2024 04:57:41.508] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar with {embeddium_extra} mods - versions {0.5.4.3+mc1.20.1-build.121}
+[10Dec2024 04:57:41.509] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/rubidium-mc1.20.1-0.7.1a.jar
+[10Dec2024 04:57:41.509] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file rubidium-mc1.20.1-0.7.1a.jar with {rubidium,sodium} mods - versions {0.7.1a,0.5.3}
+[10Dec2024 04:57:41.510] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/skinlayers3d-forge-1.6.5-mc1.20.1.jar
+[10Dec2024 04:57:41.510] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file skinlayers3d-forge-1.6.5-mc1.20.1.jar with {skinlayers3d} mods - versions {1.6.5}
+[10Dec2024 04:57:41.511] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Sniffer+-forge-1.20.1-0.3.0.jar
+[10Dec2024 04:57:41.512] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Sniffer+-forge-1.20.1-0.3.0.jar with {snifferplus} mods - versions {0.3.0}
+[10Dec2024 04:57:41.513] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/sons-of-sins-1.20.1-2.1.6.jar
+[10Dec2024 04:57:41.513] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sons-of-sins-1.20.1-2.1.6.jar with {sons_of_sins} mods - versions {2.1.6}
+[10Dec2024 04:57:41.514] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/sosorgans-1.0.0.jar
+[10Dec2024 04:57:41.515] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sosorgans-1.0.0.jar with {sosorgans} mods - versions {1.0.0}
+[10Dec2024 04:57:41.515] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/soulfired-1.20.1-3.2.1.0-forge.jar
+[10Dec2024 04:57:41.516] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file soulfired-1.20.1-3.2.1.0-forge.jar with {soulfired} mods - versions {3.2.1.0}
+[10Dec2024 04:57:41.516] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/sound-physics-remastered-forge-1.20.1-1.4.2.jar
+[10Dec2024 04:57:41.517] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sound-physics-remastered-forge-1.20.1-1.4.2.jar with {sound_physics_remastered} mods - versions {1.20.1-1.4.2}
+[10Dec2024 04:57:41.518] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/spelunkers_charm-3.6.0-1.20.1.jar
+[10Dec2024 04:57:41.518] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file spelunkers_charm-3.6.0-1.20.1.jar with {spelunkers_charm} mods - versions {3.6.0}
+[10Dec2024 04:57:41.519] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Structory_1.20.x_v1.3.5.jar
+[10Dec2024 04:57:41.520] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Structory_1.20.x_v1.3.5.jar with {structory} mods - versions {1.3.5}
+[10Dec2024 04:57:41.523] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/supplementaries-1.20-2.8.15.jar
+[10Dec2024 04:57:41.524] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file supplementaries-1.20-2.8.15.jar with {supplementaries} mods - versions {1.20-2.8.15}
+[10Dec2024 04:57:41.524] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/takesapillage-1.0.3-1.20.1.jar
+[10Dec2024 04:57:41.525] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file takesapillage-1.0.3-1.20.1.jar with {takesapillage} mods - versions {1.0.3}
+[10Dec2024 04:57:41.525] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/TextruesRubidiumOptions-1.0.5+mc1.20.1.jar
+[10Dec2024 04:57:41.526] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TextruesRubidiumOptions-1.0.5+mc1.20.1.jar with {reeses_sodium_options} mods - versions {1.0.5+mc1.20.1}
+[10Dec2024 04:57:41.527] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Towns-and-Towers-1.12-Fabric+Forge.jar
+[10Dec2024 04:57:41.528] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Towns-and-Towers-1.12-Fabric+Forge.jar with {t_and_t} mods - versions {0.0NONE}
+[10Dec2024 04:57:41.531] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/upgrade_aquatic-1.20.1-6.0.0.jar
+[10Dec2024 04:57:41.531] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file upgrade_aquatic-1.20.1-6.0.0.jar with {upgrade_aquatic} mods - versions {6.0.0}
+[10Dec2024 04:57:41.532] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/warriorrage-forge-1.20.1-1.0.1.jar
+[10Dec2024 04:57:41.533] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file warriorrage-forge-1.20.1-1.0.1.jar with {warriorrage} mods - versions {1.0.1}
+[10Dec2024 04:57:41.533] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/waystones-forge-1.20-14.1.3.jar
+[10Dec2024 04:57:41.534] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file waystones-forge-1.20-14.1.3.jar with {waystones} mods - versions {14.1.3}
+[10Dec2024 04:57:41.534] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/WaystonesTeleportPets-1.20-1.20.1--1.2.jar
+[10Dec2024 04:57:41.535] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file WaystonesTeleportPets-1.20-1.20.1--1.2.jar with {w2pets} mods - versions {1.0}
+[10Dec2024 04:57:41.536] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Xaeros_Minimap_24.2.0_Forge_1.20.jar
+[10Dec2024 04:57:41.537] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Xaeros_Minimap_24.2.0_Forge_1.20.jar with {xaerominimap} mods - versions {24.2.0}
+[10Dec2024 04:57:41.537] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/xaeros_waystones_compability-1.0.jar
+[10Dec2024 04:57:41.538] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file xaeros_waystones_compability-1.0.jar with {w2w2} mods - versions {1.0}
+[10Dec2024 04:57:41.538] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar
+[10Dec2024 04:57:41.539] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsApi-1.20-Forge-4.0.5.jar with {yungsapi} mods - versions {1.20-Forge-4.0.5}
+[10Dec2024 04:57:41.540] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar
+[10Dec2024 04:57:41.540] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterDesertTemples-1.20-Forge-3.0.3.jar with {betterdeserttemples} mods - versions {1.20-Forge-3.0.3}
+[10Dec2024 04:57:41.541] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar
+[10Dec2024 04:57:41.541] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterDungeons-1.20-Forge-4.0.4.jar with {betterdungeons} mods - versions {1.20-Forge-4.0.4}
+[10Dec2024 04:57:41.542] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterEndIsland-1.20-Forge-2.0.6.jar
+[10Dec2024 04:57:41.543] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterEndIsland-1.20-Forge-2.0.6.jar with {betterendisland} mods - versions {1.20-Forge-2.0.6}
+[10Dec2024 04:57:41.543] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar
+[10Dec2024 04:57:41.544] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterJungleTemples-1.20-Forge-2.0.5.jar with {betterjungletemples} mods - versions {1.20-Forge-2.0.5}
+[10Dec2024 04:57:41.545] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar
+[10Dec2024 04:57:41.545] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterMineshafts-1.20-Forge-4.0.4.jar with {bettermineshafts} mods - versions {1.20-Forge-4.0.4}
+[10Dec2024 04:57:41.546] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar
+[10Dec2024 04:57:41.546] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar with {betterfortresses} mods - versions {1.20-Forge-2.0.6}
+[10Dec2024 04:57:41.547] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar
+[10Dec2024 04:57:41.547] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar with {betteroceanmonuments} mods - versions {1.20-Forge-3.0.4}
+[10Dec2024 04:57:41.548] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar
+[10Dec2024 04:57:41.549] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterStrongholds-1.20-Forge-4.0.3.jar with {betterstrongholds} mods - versions {1.20-Forge-4.0.3}
+[10Dec2024 04:57:41.549] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar
+[10Dec2024 04:57:41.550] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterWitchHuts-1.20-Forge-3.0.3.jar with {betterwitchhuts} mods - versions {1.20-Forge-3.0.3}
+[10Dec2024 04:57:41.550] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsBridges-1.20-Forge-4.0.3.jar
+[10Dec2024 04:57:41.551] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBridges-1.20-Forge-4.0.3.jar with {yungsbridges} mods - versions {1.20-Forge-4.0.3}
+[10Dec2024 04:57:41.551] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/YungsExtras-1.20-Forge-4.0.3.jar
+[10Dec2024 04:57:41.552] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsExtras-1.20-Forge-4.0.3.jar with {yungsextras} mods - versions {1.20-Forge-4.0.3}
+[10Dec2024 04:57:41.553] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/mods/Zeta-1.0-19.jar
+[10Dec2024 04:57:41.553] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Zeta-1.0-19.jar with {zeta} mods - versions {1.0-19}
+[10Dec2024 04:57:41.668] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[10Dec2024 04:57:41.669] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar
+[10Dec2024 04:57:41.669] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[10Dec2024 04:57:41.670] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar
+[10Dec2024 04:57:41.670] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[10Dec2024 04:57:41.671] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar
+[10Dec2024 04:57:41.671] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[10Dec2024 04:57:41.672] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar
+[10Dec2024 04:57:41.672] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[10Dec2024 04:57:41.719] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/el-monje/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar
+[10Dec2024 04:57:41.720] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.3.7-universal.jar with {forge} mods - versions {47.3.7}
+[10Dec2024 04:57:41.727] [main/ERROR] [net.minecraftforge.fml.loading.UniqueModListBuilder/LOADING]: Found duplicate mods:
 	Mod ID: 'rubidium' from mod files: rubidium-mc1.20.1-0.7.1a.jar, embeddium-0.3.20+mc1.20.1.jar
-[10Dec2024 04:57:08.455] [main/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Failed to build unique mod list after mod discovery.
+[10Dec2024 04:57:41.728] [main/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Failed to build unique mod list after mod discovery.
 net.minecraftforge.fml.loading.EarlyLoadingException: Duplicate mods found
 	at net.minecraftforge.fml.loading.UniqueModListBuilder.buildUniqueList(UniqueModListBuilder.java:87) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
 	at net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:106) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
@@ -335,11 +335,11 @@ net.minecraftforge.fml.loading.EarlyLoadingException: Duplicate mods found
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[10Dec2024 04:57:08.465] [main/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Mod Discovery failed. Skipping dependency discovery.
-[10Dec2024 04:57:08.467] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
-[10Dec2024 04:57:08.467] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin-transmogrifier
-[10Dec2024 04:57:08.469] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin-transmogrifier
-[10Dec2024 04:57:08.469] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service connector_loader
-[10Dec2024 04:57:08.470] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service connector_loader
-[10Dec2024 04:57:08.473] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
-[10Dec2024 04:57:08.477] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft]
+[10Dec2024 04:57:41.737] [main/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Mod Discovery failed. Skipping dependency discovery.
+[10Dec2024 04:57:41.738] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[10Dec2024 04:57:41.738] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin-transmogrifier
+[10Dec2024 04:57:41.740] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin-transmogrifier
+[10Dec2024 04:57:41.740] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service connector_loader
+[10Dec2024 04:57:41.741] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service connector_loader
+[10Dec2024 04:57:41.744] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[10Dec2024 04:57:41.748] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft]
